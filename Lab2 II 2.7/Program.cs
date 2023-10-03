@@ -28,5 +28,9 @@ for (int i = 0; i < thoigiangui; i++)
 
 
 
+Console.WriteLine("asdasdad");
+Console.WriteLine("asdasdad");
+Console.WriteLine("asdasdad");
+Console.WriteLine("asdasdad");
 
-        
+
