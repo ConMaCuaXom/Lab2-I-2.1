@@ -13,12 +13,12 @@ int laisuat = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Nhap so thang gui: ");
 int thoigiangui = Convert.ToInt32(Console.ReadLine());
 
-double lst = (laisuat / 12);
+double lst = ((laisuat*1.0 / 12)/100);
 double total = tiengui;
 double sodu = 0;
 for (int i = 0; i < thoigiangui; i++)
 {
-    total = (total + total * ((laisuat/12) / 100));
+    total = (total + total * lst);
     sodu = (total - tiengui);
     Console.Write("Tong tien thang thu {0} la: ", i + 1);
     Console.WriteLine(total);
@@ -27,12 +27,5 @@ for (int i = 0; i < thoigiangui; i++)
 }
 
 
-
-Console.WriteLine("asdasdad");
-Console.WriteLine("asdasdad");
-Console.WriteLine("asdasdad");
-Console.WriteLine("asdasdad");
-Console.WriteLine("asdasdad");
-Console.WriteLine("asdasdad");
 
 

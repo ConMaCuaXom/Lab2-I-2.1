@@ -13,7 +13,9 @@ mmm = x / 60;
 m = mmm % 60;
 h = mmm / 60;
 
-Console.WriteLine("So gio quy doi la: {0}:{1}:{2}", h, m, s);
+
+
+Console.WriteLine("So gio quy doi la: {0:00}:{1:00}:{2:00}", h, m, s);
 
 
 
