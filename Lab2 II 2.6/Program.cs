@@ -39,5 +39,7 @@ for (int a = 1; a <= h; a++)
             Console.Write(" ");
         }
     }
+
+    Console.WriteLine("***");
 }
 
